@@ -1,0 +1,1976 @@
+{
+    "timestamp": "2025-10-19T23:18:57+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko\/20100101 Firefox\/143.0",
+    "uri": "\/",
+    "method": "GET",
+    "threat": "Dangerous character detected: 3c",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "N\/A",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-19T23:19:10+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko\/20100101 Firefox\/143.0",
+    "uri": "\/",
+    "method": "GET",
+    "threat": "Dangerous character detected: 3c",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "N\/A",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-19T23:28:47+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko\/20100101 Firefox\/143.0",
+    "uri": "\/",
+    "method": "GET",
+    "threat": "Dangerous character detected: 3c",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "N\/A",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-19T23:32:14+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko\/20100101 Firefox\/143.0",
+    "uri": "\/",
+    "method": "GET",
+    "threat": "Dangerous character detected: 3c",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "N\/A",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:06:36+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Dangerous character detected: 27",
+    "input_sample": "'",
+    "input_length": 1,
+    "input_hash": "265fda17a34611b1533d8a281ff680dc5791b0ce0a11c25b35e11c8e75685509",
+    "referer": "http:\/\/localhost:8080\/login.php",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:06:51+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Dangerous character detected: 27",
+    "input_sample": "'",
+    "input_length": 1,
+    "input_hash": "265fda17a34611b1533d8a281ff680dc5791b0ce0a11c25b35e11c8e75685509",
+    "referer": "http:\/\/localhost:8080\/login.php",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:07:14+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Dangerous character detected: 3c",
+    "input_sample": "niceshotfree@gmail.com<",
+    "input_length": 23,
+    "input_hash": "f46166c8f76bc1e29b10ae292b9e716eb57643a59998fc4c4a077275cb7edc27",
+    "referer": "http:\/\/localhost:8080\/login.php",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:07:34+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "http:\/\/localhost:8080\/",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:07:45+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=%27\/**\/or\/**\/1=1--%20-",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "'\/**\/or\/**\/1=1-- -",
+    "input_length": 18,
+    "input_hash": "c1c1fca8aae4d1ea3d746db24f9e640274369520b7c845e614d992a678308485",
+    "referer": "N\/A",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:07:55+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "http:\/\/localhost:8080\/",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:07:58+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "http:\/\/localhost:8080\/",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:08:10+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125p69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125p69d",
+    "input_length": 32,
+    "input_hash": "234670e40292edb19b04620683c1bdb0fc3967d299e4dc7ede0f47798ad17397",
+    "referer": "N\/A",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:13:03+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=x",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "x",
+    "input_length": 1,
+    "input_hash": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+    "referer": "N\/A",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:15:24+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Dangerous character detected: 27",
+    "input_sample": "'",
+    "input_length": 1,
+    "input_hash": "265fda17a34611b1533d8a281ff680dc5791b0ce0a11c25b35e11c8e75685509",
+    "referer": "http:\/\/localhost:8080\/login.php",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:15:46+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "http:\/\/localhost:8080\/",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:15:50+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "http:\/\/localhost:8080\/",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:16:01+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "http:\/\/localhost:8080\/",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:16:29+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "http:\/\/localhost:8080\/",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:18:11+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "http:\/\/localhost:8080\/",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:18:50+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "http:\/\/localhost:8080\/",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:19:19+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "http:\/\/localhost:8080\/",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:19:20+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "http:\/\/localhost:8080\/",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:19:21+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "0830af9c5a7fbe96a8dccdfb46ec9ac55334adf963fd63e4165e9c248aee5d4e",
+    "referer": "http:\/\/localhost:8080\/",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:22:13+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f5370x978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f5370x978b045f48f125e69d",
+    "input_length": 32,
+    "input_hash": "6e5590b8396e44ddcfaf6777db284e7a317d48e0f723e94865804ffed048bca3",
+    "referer": "N\/A",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:23:01+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Dangerous character detected: 40",
+    "input_sample": "dogubey@test.com",
+    "input_length": 16,
+    "input_hash": "241dfb3f6a2c437aa0095e0ddf9ea5713d79a8d834d5f6af194e126ce284271f",
+    "referer": "http:\/\/localhost:8080\/login.php",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:37:25+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Dangerous character detected: 40",
+    "input_sample": "tilki@test.com",
+    "input_length": 14,
+    "input_hash": "63fa9daf91262be18fc150d6f305c07368f745c46f9b645806d6efa1d36365af",
+    "referer": "http:\/\/localhost:8080\/login.php",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:39:51+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Dangerous character detected: 2e",
+    "input_sample": "tilki@test.com",
+    "input_length": 14,
+    "input_hash": "63fa9daf91262be18fc150d6f305c07368f745c46f9b645806d6efa1d36365af",
+    "referer": "http:\/\/localhost:8080\/login.php",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:40:12+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Dangerous character detected: 2e",
+    "input_sample": "tilki@test.com",
+    "input_length": 14,
+    "input_hash": "63fa9daf91262be18fc150d6f305c07368f745c46f9b645806d6efa1d36365af",
+    "referer": "http:\/\/localhost:8080\/login.php",
+    "country": "Unknown"
+}
+---
+{
+    "timestamp": "2025-10-21T23:46:48+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=%22%3C%27%3E%3Cscrpit%3Ealert(1)%3E%3C\/script%3E",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "\"<'><scrpit>alert(1)><\/script>",
+    "input_length": 30
+}
+---
+{
+    "timestamp": "2025-10-21T23:47:07+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=%3Cscript%3Ealert(1)%3C\/script%3E",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "<script>alert(1)<\/script>",
+    "input_length": 25
+}
+---
+{
+    "timestamp": "2025-10-21T23:49:07+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "SELECT * FROM User",
+    "input_length": 18
+}
+---
+{
+    "timestamp": "2025-10-21T23:55:28+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "' OR '1'='1",
+    "input_length": 11
+}
+---
+{
+    "timestamp": "2025-10-21T23:57:12+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48f125e69d",
+    "input_length": 32
+}
+---
+{
+    "timestamp": "2025-10-21T23:58:23+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/search.php?from=Bursa%27&to=Diyarbak%C4%B1r&date=2025-10-21",
+    "method": "GET",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "Bursa'",
+    "input_length": 6
+}
+---
+{
+    "timestamp": "2025-10-22T00:00:57+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/search.php?from=%C4%B0stanbul&to=Eski%C5%9Fehir%27&date=2025-10-22",
+    "method": "GET",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "Eskişehir'",
+    "input_length": 11
+}
+---
+{
+    "timestamp": "2025-10-22T00:01:03+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/search.php?from=%C4%B0stanbul&to=%3C&date=2025-10-22",
+    "method": "GET",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "<",
+    "input_length": 1
+}
+---
+{
+    "timestamp": "2025-10-22T00:01:12+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/search.php?from=%C4%B0stanbul&to=%27%22%3E%3C?*&date=2025-10-22",
+    "method": "GET",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "'\"><?*",
+    "input_length": 6
+}
+---
+{
+    "timestamp": "2025-10-22T00:02:15+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b045f48y125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b045f48y125e69d",
+    "input_length": 32
+}
+---
+{
+    "timestamp": "2025-10-22T00:04:32+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "..\/..\/..\/..\/..\/..\/..\/..\/..\/etc\/passwd",
+    "input_length": 37
+}
+---
+{
+    "timestamp": "2025-10-22T00:04:46+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252Fetc%252Fpasswd",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd",
+    "input_length": 57
+}
+---
+{
+    "timestamp": "2025-10-22T00:05:01+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=..%25252F..%25252F..%25252F..%25252F..%25252F..%25252F..%25252F..%25252F..%25252Fetc%25252Fpasswd",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252F..%252Fetc%252Fpasswd",
+    "input_length": 77
+}
+---
+{
+    "timestamp": "2025-10-22T00:05:11+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=..%2525252F..%2525252F..%2525252F..%2525252F..%2525252F..%2525252F..%2525252F..%2525252F..%2525252Fetc%2525252Fpasswd",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "..%25252F..%25252F..%25252F..%25252F..%25252F..%25252F..%25252F..%25252F..%25252Fetc%25252Fpasswd",
+    "input_length": 97
+}
+---
+{
+    "timestamp": "2025-10-22T00:05:35+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/search.php?from=..%2525252F..%2525252F..%2525252F..%2525252F..%2525252F..%2525252F..%2525252F..%2525252F..%2525252Fetc%2525252Fpasswd&to=Bursa&date=2025-10-22",
+    "method": "GET",
+    "threat": "Encoded attack detected",
+    "input_sample": "..%25252F..%25252F..%25252F..%25252F..%25252F..%25252F..%25252F..%25252F..%25252Fetc%25252Fpasswd",
+    "input_length": 97
+}
+---
+{
+    "timestamp": "2025-10-22T00:17:45+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "\" or 1=1",
+    "input_length": 8
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:18+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "' OR '1'='1",
+    "input_length": 11
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:18+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin'--",
+    "input_length": 8
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:18+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "1 UNION SELECT * FROM User",
+    "input_length": 26
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:18+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "1'; DROP TABLE User--",
+    "input_length": 21
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:18+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "<script>alert(1)<\/script>",
+    "input_length": 25
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:18+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "javascript:alert(1)",
+    "input_length": 19
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:18+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "<img src=x onerror=alert(1)>",
+    "input_length": 28
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:18+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "; cat \/etc\/passwd",
+    "input_length": 17
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:18+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "| ls -la",
+    "input_length": 8
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:45+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "' OR '1'='1",
+    "input_length": 11
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:45+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin'--",
+    "input_length": 8
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:46+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "1 UNION SELECT * FROM User",
+    "input_length": 26
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:46+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "1'; DROP TABLE User--",
+    "input_length": 21
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:46+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "<script>alert(1)<\/script>",
+    "input_length": 25
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:46+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "javascript:alert(1)",
+    "input_length": 19
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:46+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "<img src=x onerror=alert(1)>",
+    "input_length": 28
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:46+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "; cat \/etc\/passwd",
+    "input_length": 17
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:46+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "| ls -la",
+    "input_length": 8
+}
+---
+{
+    "timestamp": "2025-10-22T00:18:46+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "&& whoami",
+    "input_length": 9
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "\" or 1=1",
+    "input_length": 8
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "\" or 1=1#",
+    "input_length": 9
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "\" or 1=1--",
+    "input_length": 10
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "\" or 1=1\/*",
+    "input_length": 10
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "1234 \" AND 1=0 UNION ALL SELECT \"admin\", \"81dc9bdb52d04dc20036dbd8313ed055",
+    "input_length": 74
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "1234 \" AND 1=0 UNION ALL SELECT \"root\", \"81dc9bdb52d04dc20036dbd8313ed055",
+    "input_length": 73
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" #",
+    "input_length": 8
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" --",
+    "input_length": 9
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or \"1\"=\"1",
+    "input_length": 16
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or \"1\"=\"1\"#",
+    "input_length": 18
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or \"1\"=\"1\"--",
+    "input_length": 19
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or \"1\"=\"1\"\/*",
+    "input_length": 19
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or 1=1",
+    "input_length": 13
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:09+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or 1=1#",
+    "input_length": 14
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:10+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or 1=1--",
+    "input_length": 15
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:10+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or 1=1\/*",
+    "input_length": 15
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:10+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or \"1\"=\"1",
+    "input_length": 17
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:10+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or \"1\"=\"1\"#",
+    "input_length": 19
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:10+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or \"1\"=\"1\"--",
+    "input_length": 20
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:10+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or \"1\"=\"1\"\/*",
+    "input_length": 20
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:10+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or (\"1\"=\"1",
+    "input_length": 18
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:10+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or (\"1\"=\"1\"#",
+    "input_length": 20
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:10+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or (\"1\"=\"1\"--",
+    "input_length": 21
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:10+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or (\"1\"=\"1\"\/*",
+    "input_length": 21
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "\" or 1=1",
+    "input_length": 8
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "\" or 1=1#",
+    "input_length": 9
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "\" or 1=1--",
+    "input_length": 10
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "\" or 1=1\/*",
+    "input_length": 10
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "' or 1=1",
+    "input_length": 8
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "' or 1=1#",
+    "input_length": 9
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "' or 1=1--",
+    "input_length": 10
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "' or 1=1\/*",
+    "input_length": 10
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "1234 \" AND 1=0 UNION ALL SELECT \"admin\", \"81dc9bdb52d04dc20036dbd8313ed055",
+    "input_length": 74
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "1234 \" AND 1=0 UNION ALL SELECT \"root\", \"81dc9bdb52d04dc20036dbd8313ed055",
+    "input_length": 73
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055",
+    "input_length": 74
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "1234 ' AND 1=0 UNION ALL SELECT 'root', '81dc9bdb52d04dc20036dbd8313ed055",
+    "input_length": 73
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" #",
+    "input_length": 8
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" --",
+    "input_length": 9
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or \"1\"=\"1",
+    "input_length": 16
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or \"1\"=\"1\"#",
+    "input_length": 18
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or \"1\"=\"1\"--",
+    "input_length": 19
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or \"1\"=\"1\"\/*",
+    "input_length": 19
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or 1=1",
+    "input_length": 13
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or 1=1#",
+    "input_length": 14
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or 1=1--",
+    "input_length": 15
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\" or 1=1\/*",
+    "input_length": 15
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or \"1\"=\"1",
+    "input_length": 17
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or \"1\"=\"1\"#",
+    "input_length": 19
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or \"1\"=\"1\"--",
+    "input_length": 20
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:39+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or \"1\"=\"1\"\/*",
+    "input_length": 20
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:40+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or (\"1\"=\"1",
+    "input_length": 18
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:40+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or (\"1\"=\"1\"#",
+    "input_length": 20
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:40+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or (\"1\"=\"1\"--",
+    "input_length": 21
+}
+---
+{
+    "timestamp": "2025-10-22T00:19:40+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "admin\") or (\"1\"=\"1\"\/*",
+    "input_length": 21
+}
+---
+{
+    "timestamp": "2025-10-22T00:26:13+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/addUser.php",
+    "method": "POST",
+    "threat": "Invalid characters for mode: text",
+    "input_sample": "'",
+    "input_length": 1
+}
+---
+{
+    "timestamp": "2025-10-22T00:34:37+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: strict",
+    "input_sample": "admin' OR '1'='1",
+    "input_length": 16
+}
+---
+{
+    "timestamp": "2025-10-22T00:34:59+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: strict",
+    "input_sample": "' OR 1=1--",
+    "input_length": 10
+}
+---
+{
+    "timestamp": "2025-10-22T00:35:05+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "1 UNION SELECT password FROM users",
+    "input_length": 34
+}
+---
+{
+    "timestamp": "2025-10-22T00:35:30+00:00",
+    "ip": "192.168.1.100",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36",
+    "uri": "\/admin\/delete_user.php?id=1%20UNION%20SELECT",
+    "method": "POST",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "1 UNION SELECT password FROM users WHERE 1=1",
+    "input_length": 44
+}
+---
+{
+    "timestamp": "2025-10-22T00:37:22+00:00",
+    "ip": "::1",
+    "user_agent": "curl\/8.7.1",
+    "uri": "\/test_403_web.php?attack=sql",
+    "method": "GET",
+    "threat": "Invalid characters for mode: strict",
+    "input_sample": "admin' OR '1'='1",
+    "input_length": 16
+}
+---
+{
+    "timestamp": "2025-10-22T00:38:46+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": 34
+}
+---
+{
+    "timestamp": "2025-10-22T00:45:08+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": 34
+}
+---
+{
+    "timestamp": "2025-10-22T00:45:09+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": 34
+}
+---
+{
+    "timestamp": "2025-10-22T00:45:31+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": 34
+}
+---
+{
+    "timestamp": "2025-10-22T00:46:12+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": 34
+}
+---
+{
+    "timestamp": "2025-10-22T00:46:20+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": 34
+}
+---
+{
+    "timestamp": "2025-10-22T00:47:16+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": 34
+}
+---
+{
+    "timestamp": "2025-10-22T00:47:25+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": 34
+}
+---
+{
+    "timestamp": "2025-10-22T00:53:25+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": "34"
+}
+---
+{
+    "timestamp": "2025-10-22T00:53:27+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": "34"
+}
+---
+{
+    "timestamp": "2025-10-22T00:53:28+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": "34"
+}
+---
+{
+    "timestamp": "2025-10-22T00:53:35+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": "34"
+}
+---
+{
+    "timestamp": "2025-10-22T00:57:07+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca0jj4f53703978b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca0jj4f53703978b045f48f125e69d",
+    "input_length": "34"
+}
+---
+{
+    "timestamp": "2025-10-22T00:57:49+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Invalid characters for mode: password",
+    "input_sample": "dsadsadsadad&apos;",
+    "input_length": "13"
+}
+---
+{
+    "timestamp": "2025-10-22T00:58:36+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Invalid characters for mode: password",
+    "input_sample": "&apos;&apos;",
+    "input_length": "2"
+}
+---
+{
+    "timestamp": "2025-10-22T00:59:05+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Invalid characters for mode: password",
+    "input_sample": "&apos;&apos;",
+    "input_length": "2"
+}
+---
+{
+    "timestamp": "2025-10-22T01:01:24+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=\/*%00\/",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "\/*\u0000\/",
+    "input_length": "4"
+}
+---
+{
+    "timestamp": "2025-10-22T01:01:53+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "&lt;iframe SRC=&quot;javascript:alert(&apos;XSS&apos;);&quot; &lt;",
+    "input_length": "40"
+}
+---
+{
+    "timestamp": "2025-10-22T01:02:07+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "&lt;&lt;TexTArEa\/*%00\/\/%00*\/a=&quot;not&quot;\/*%00\/\/\/AutOFocUs\/\/\/\/onFoCUS=alert`1` \/\/",
+    "input_length": "69"
+}
+---
+{
+    "timestamp": "2025-10-22T01:02:14+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=%3C%3CTexTArEa\/*%00\/\/%00*\/a=%22not%22\/*%00\/\/\/AutOFocUs\/\/\/\/onFoCUS=alert`1`%20\/\/",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "&lt;&lt;TexTArEa\/*\u0000\/\/\u0000*\/a=&quot;not&quot;\/*\u0000\/\/\/AutOFocUs\/\/\/\/onFoCUS=alert`1` \/\/",
+    "input_length": "63"
+}
+---
+{
+    "timestamp": "2025-10-22T01:03:57+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b0x45f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b0x45f48f125e69d",
+    "input_length": "33"
+}
+---
+{
+    "timestamp": "2025-10-22T01:04:34+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b0x45f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b0x45f48f125e69d",
+    "input_length": "33"
+}
+---
+{
+    "timestamp": "2025-10-22T01:04:45+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f53703978b0x45f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f53703978b0x45f48f125e69d",
+    "input_length": "33"
+}
+---
+{
+    "timestamp": "2025-10-22T01:28:01+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: strict",
+    "input_sample": "&apos; or 1=1",
+    "input_length": "8"
+}
+---
+{
+    "timestamp": "2025-10-22T01:28:21+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: strict",
+    "input_sample": "&apos; or 1=1--",
+    "input_length": "10"
+}
+---
+{
+    "timestamp": "2025-10-22T01:28:42+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: strict",
+    "input_sample": "&amp;",
+    "input_length": "1"
+}
+---
+{
+    "timestamp": "2025-10-22T01:28:49+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Invalid characters for mode: strict",
+    "input_sample": "&amp;",
+    "input_length": "1"
+}
+---
+{
+    "timestamp": "2025-10-22T01:30:45+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f537039sadsa78b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f537039sadsa78b045f48f125e69d",
+    "input_length": "37"
+}
+---
+{
+    "timestamp": "2025-10-22T01:34:20+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=%27\/**\/or\/**\/1=1--%20-",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "&apos;\/**\/or\/**\/1=1-- -",
+    "input_length": "18"
+}
+---
+{
+    "timestamp": "2025-10-22T01:34:49+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=b5a5ca04f537039sadsa78b045f48f125e69d",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "b5a5ca04f537039sadsa78b045f48f125e69d",
+    "input_length": "37"
+}
+---
+{
+    "timestamp": "2025-10-22T17:17:13+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/search.php?from=Eski%C5%9Fehir%27&amp;to=Kayseri&amp;date=2025-10-22",
+    "method": "GET",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "Eskişehir&apos;",
+    "input_length": "11"
+}
+---
+{
+    "timestamp": "2025-10-22T17:58:24+00:00",
+    "ip": "CLI",
+    "user_agent": "Unknown",
+    "uri": "N\/A",
+    "method": "N\/A",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "&lt;script&gt;alert(&quot;XSS&quot;)&lt;\/script&gt;",
+    "input_length": "29"
+}
+---
+{
+    "timestamp": "2025-10-22T19:23:23+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=08e5437db41b83aa",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "08e5437db41b83aa",
+    "input_length": "16"
+}
+---
+{
+    "timestamp": "2025-10-22T19:37:54+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/search.php?from=Antaly%27a&amp;to=Diyarbak%C4%B1r&amp;date=2025-10-22",
+    "method": "GET",
+    "threat": "Invalid characters for mode: passthrough",
+    "input_sample": "Antaly&apos;a",
+    "input_length": "8"
+}
+---
+{
+    "timestamp": "2025-10-22T19:39:30+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Invalid characters for mode: password",
+    "input_sample": "&lt;",
+    "input_length": "1"
+}
+---
+{
+    "timestamp": "2025-10-22T19:39:40+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Invalid characters for mode: password",
+    "input_sample": ";",
+    "input_length": "1"
+}
+---
+{
+    "timestamp": "2025-10-22T19:39:59+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Invalid characters for mode: password",
+    "input_sample": ".",
+    "input_length": "1"
+}
+---
+{
+    "timestamp": "2025-10-23T00:52:56+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=cb1c8f5504160c451c40d1d7f9984734%27",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "cb1c8f5504160c451c40d1d7f9984734&apos;",
+    "input_length": "33"
+}
+---
+{
+    "timestamp": "2025-10-23T00:53:26+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Dangerous pattern detected",
+    "input_sample": "&lt;script&gt;[][(![]+[])[+[]]+(![]+[])[!+[]+!+[]]+(!![]+[])[!+[]+!+[]+!+[]]][(![]+[])[+[]]+(!![]+[])[+[]]+([][[]]+[])[+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+!+[]]]((![]+[])[+!+[]]+(!![]+[])[+!+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+[]]+([][[]]+[])[+[]]+(!![]+[])[+!+[]]+(!![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+[]]+(!![]+[])[+!+[]]+(!![]+[])[!+[]+!+[]+!+[]])()&lt;\/script&gt;",
+    "input_length": "365"
+}
+---
+{
+    "timestamp": "2025-10-23T00:54:41+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Invalid characters for mode: password",
+    "input_sample": "+ADw-script+AD4-alert(&apos;XSS&apos;)+ADw-\/script+AD4-",
+    "input_length": "45"
+}
+---
+{
+    "timestamp": "2025-10-23T00:54:50+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Invalid characters for mode: password",
+    "input_sample": "+ADw-script+AD4-alert(&apos;XSS&apos;)+ADw-\/script+AD4-",
+    "input_length": "45"
+}
+---
+{
+    "timestamp": "2025-10-23T00:55:04+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Encoded attack detected",
+    "input_sample": "%253Cscript%253E%25u0061%25u006c%25u0065%25u0072%25u0074%2528%2527XSS%2527%2529%253C%252Fscript%253E",
+    "input_length": "100"
+}
+---
+{
+    "timestamp": "2025-10-23T00:56:54+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/checkUser.php",
+    "method": "POST",
+    "threat": "Invalid characters for mode: password",
+    "input_sample": "&lt;%&lt;%&lt;%&lt;%&lt;%&lt;%&lt;%&lt;%&lt;%&lt;%",
+    "input_length": "20"
+}
+---
+{
+    "timestamp": "2025-10-23T00:57:07+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=%27\/**\/or\/**\/1=1--%20-",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "&apos;\/**\/or\/**\/1=1-- -",
+    "input_length": "18"
+}
+---
+{
+    "timestamp": "2025-10-23T00:57:12+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=\/**\/or\/**\/1=1--%20-",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "\/**\/or\/**\/1=1-- -",
+    "input_length": "17"
+}
+---
+{
+    "timestamp": "2025-10-23T00:57:23+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=%%%%%%%%%%%^",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "%%%%%%%%%%%^",
+    "input_length": "12"
+}
+---
+{
+    "timestamp": "2025-10-23T00:57:32+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=___________________________",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "___________________________",
+    "input_length": "27"
+}
+---
+{
+    "timestamp": "2025-10-23T00:57:41+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=???????????????????????????????",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "???????????????????????????????",
+    "input_length": "31"
+}
+---
+{
+    "timestamp": "2025-10-23T13:27:49+00:00",
+    "ip": "192.168.65.1",
+    "user_agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/141.0.0.0 Safari\/537.36",
+    "uri": "\/trip_detail.php?id=cb1c8f5504160c451c40d1d7f99847342",
+    "method": "GET",
+    "threat": "Invalid trip_id format (expected UUID)",
+    "input_sample": "cb1c8f5504160c451c40d1d7f99847342",
+    "input_length": "33"
+}
+---
