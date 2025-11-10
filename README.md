@@ -1,185 +1,173 @@
-# 🎫 NoTicket - Otobüs Bilet Rezervasyon Sistemi
+# 🎫 NoTicket - Bus Ticket Reservation System
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-blue.svg)](https://php.net)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Security](https://img.shields.io/badge/security-WAF%20Protected-brightgreen.svg)](src/889b1769-5f97-4b94-ac58-69877e948de7/SecurityModule.php)
 
-## 📋 Proje Genel Bakış
-**NoTicket**, modern güvenlik standartlarına sahip, PHP tabanlı profesyonel otobüs bilet rezervasyon sistemidir. Docker konteyner desteği ile kolay kurulum ve dağıtım sağlar.
+## 📋 Project Overview
+**NoTicket** is a professional PHP-based bus ticket reservation system with modern security standards. It provides easy installation and deployment with Docker container support.
 
-**Geliştirici:** @n0connect
-**Versiyon:** 1.0.0
-**Durum:** Experimental Only 
+**Developer:** @n0connect
+**Version:** 1.0.0
+**Status:** Experimental Only 
 
-## 🛠️ Teknoloji Yığını
+## 🛠️ Technology Stack
 - **Backend:** PHP 8.0+ / PDO
-- **Veritabanı:** SQLite 3
+- **Database:** SQLite 3
 - **Web Server:** Nginx + PHP-FPM
-- **Konteynerizasyon:** Docker Compose
+- **Containerization:** Docker Compose
 - **Security:** Custom sWAF Module (SecurityModule.php) + Regex Control
 
-## 🔒 Güvenlik Özellikleri
+## 🔒 Security Features
 
 ### sWAF (Secure Web Application Firewall)
-- ✅ **Custom SecurityModule.php** - Özel geliştirilen sWAF modülü
-- ✅ **Whitelist tabanlı validasyon** - Sadece güvenli karakterlere izin (Regex)
-- ✅ **Multi-layer decoding** - Encoding bypass saldırılarını tespit eder
-- ✅ **Always-blocked patterns** - SQL Injection, XSS, Command Injection koruması (Blacklist + Whitelist)
-- ✅ **Selective mode system** - Email, password, text için özel modlar
+- ✅ **Custom SecurityModule.php** - Custom developed sWAF module
+- ✅ **Whitelist-based validation** - Only allows safe characters (Regex)
+- ✅ **Multi-layer decoding** - Detects encoding bypass attacks
+- ✅ **Always-blocked patterns** - SQL Injection, XSS, Command Injection protection (Blacklist + Whitelist)
+- ✅ **Selective mode system** - Special modes for email, password, text
 
-### OWASP Top 10 Koruması
-| Açık | Durum | Yöntem |
+### OWASP Top 10 Protection
+| Vulnerability | Status | Method |
 |------|-------|--------|
 | SQL Injection | ✅ | Prepared Statements + Input Validation |
 | XSS | ✅ | HTML Encoding + wafReflect() |
-| CSRF | N/A | SameSite Cookies kullanılmıyor |
+| CSRF | N/A | SameSite Cookies not used |
 | Broken Auth | ✅ | Timing attack prevention + bcrypt |
 | Security Misconfiguration | ✅ | Secure session settings |
 | Sensitive Data Exposure | ✅ | Password hashing + UUID |
-| XML External Entities | N/A | XML kullanılmıyor |
-| Broken Access Control | ✅ | Rol bazlı yetkilendirme |
-| Insecure Deserialization | N/A | Serialization kullanılmıyor |
-| Using Components with Known Vulnerabilities | ✅ | Güncel PHP 8.0+ |
+| XML External Entities | N/A | XML not used |
+| Broken Access Control | ✅ | Role-based authorization |
+| Insecure Deserialization | N/A | Serialization not used |
+| Using Components with Known Vulnerabilities | ✅ | Up-to-date PHP 8.0+ |
 
-### Ek Güvenlik
-- ✅ **Session güvenliği:** UUID tabanlı + timeout + regeneration
-- ✅ **UUID validation:** Tüm ID parametreleri UUID formatında
-- ✅ **Timing attack prevention:** Login endpoint'inde usleep ile koruma
-- ✅ **Threat logging:** Otomatik `/logs/waf_threats.log` kaydı
-- ❌ **Rate limiting ready:** Eklenmedi
+### Additional Security
+- ✅ **Session security:** UUID-based + timeout + regeneration
+- ✅ **UUID validation:** All ID parameters in UUID format
+- ✅ **Timing attack prevention:** Protection with usleep on login endpoint
+- ✅ **Threat logging:** Automatic `/logs/waf_threats.log` recording
+- ❌ **Rate limiting ready:** Not added
 
-## Sistem Mimarisi
+## System Architecture
 
-### Ana Modüller
-- **Auth System:** Kullanıcı kimlik doğrulama (`auth.php`, `session_helper.php`)
-- **Booking Engine:** Bilet rezervasyon sistemi (`booking.php`)
-- **Payment System:** Kupon doğrulama ve ödeme işlemleri
-- **Admin Panel:** Sistem yönetimi (`adminPanel/`)
-- **Company Panel:** Şirket yönetimi (`companyPanel/`)
+### Main Modules
+- **Auth System:** User authentication (`auth.php`, `session_helper.php`)
+- **Booking Engine:** Ticket reservation system (`booking.php`)
+- **Payment System:** Coupon validation and payment processing
+- **Admin Panel:** System management (`adminPanel/`)
+- **Company Panel:** Company management (`companyPanel/`)
 
-### Güvenlik Katmanı
-- **SecurityModule.php:** Merkezi güvenlik kontrolü
-- **Otomatik threat logging:** `/logs/waf_threats.log`
-- **Real-time blocking:** 403 error sayfası ile anında engelleme
+### Security Layer
+- **SecurityModule.php:** Central security control
+- **Automatic threat logging:** `/logs/waf_threats.log`
+- **Real-time blocking:** Instant blocking with 403 error page
 
-## ✨ Ana Özellikler
+## ✨ Main Features
 
-### Kullanıcı Özellikleri
-- 🔍 **Gelişmiş Sefer Arama** - Şehir ve tarih bazlı filtreleme
-- 💺 **Interaktif Koltuk Seçimi** - Görsel otobüs haritası
-- 🎟️ **Kupon Sistemi** - JSON API ile gerçek zamanlı doğrulama
-- 💰 **Bakiye Yönetimi** - Kullanıcı cüzdanı sistemi
-- 🚫 **Bilet İptali** - Kalkışa 1 saat kalana kadar iptal
-- 📄 **PDF Bilet İndirme** - Dijital bilet görüntüleme
+### User Features
+- 🔍 **Advanced Trip Search** - City and date-based filtering
+- 💺 **Interactive Seat Selection** - Visual bus map
+- 🎟️ **Coupon System** - Real-time validation with JSON API
+- 💰 **Balance Management** - User wallet system
+- 🚫 **Ticket Cancellation** - Cancel up to 1 hour before departure
+- 📄 **PDF Ticket Download** - Digital ticket viewing
 
-### Admin Paneli
-- 👥 **Kullanıcı Yönetimi** - Tam CRUD operasyonları
-- 🏢 **Şirket Yönetimi** - Otobüs firmaları kontrolü
-- 🎫 **Kupon Yönetimi** - Global kuponlar oluşturma
-- 📊 **Dashboard** - Sistem istatistikleri
+### Admin Panel
+- 👥 **User Management** - Full CRUD operations
+- 🏢 **Company Management** - Bus company control
+- 🎫 **Coupon Management** - Global coupon creation
+- 📊 **Dashboard** - System statistics
 
-### Company Paneli
-- 🚌 **Sefer Yönetimi** - CRUD operasyonları
-- 🎟️ **Bilet Takibi** - Satılan biletler görüntüleme
-- 👨‍👩‍👧‍👦 **Yolcu Listesi** - Sefere göre yolcu bilgileri
-- 🎫 **Firma Kuponları** - Firmaya özel kuponlar
-- 📈 **İstatistikler** - Satış ve doluluk oranları
+### Company Panel
+- 🚌 **Trip Management** - CRUD operations
+- 🎟️ **Ticket Tracking** - View sold tickets
+- 👨‍👩‍👧‍👦 **Passenger List** - Passenger information by trip
+- 🎫 **Company Coupons** - Company-specific coupons
+- 📈 **Statistics** - Sales and occupancy rates
 
-### Teknik Özellikler
-- ⚡ **Multi-tenant Mimari** - Firma bazlı ayrım
-- 🔐 **Rol Bazlı Erişim** - user, company, admin rolleri
-- 🎨 **Responsive Design** - Mobil uyumlu Glassmorphism UI
-- 🔄 **Transaction Support** - Atomik veritabanı işlemleri
-- 📱 **AJAX Support** - Kupon doğrulama API'si
+### Technical Features
+- ⚡ **Multi-tenant Architecture** - Company-based separation
+- 🔐 **Role-Based Access** - user, company, admin roles
+- 🎨 **Responsive Design** - Mobile-friendly Glassmorphism UI
+- 🔄 **Transaction Support** - Atomic database operations
+- 📱 **AJAX Support** - Coupon validation API
 
-## 🚀 Kurulum
+## 🚀 Installation
 
-### Gereksinimler
+### Requirements
 - Docker & Docker Compose
-- veya
+- or
 - PHP 8.0+
 - SQLite3 extension
 - PDO extension
 
-### Docker ile Kurulum (Önerilen)
+### Installation with Docker (Recommended)
 ```bash
-# Repository'yi klonla
-git clone https://github.com/n0connect/bilet-satin-alma.git
+# Clone repository
+git clone https://github.com/n0connect/NoTicket.git
 cd NoTicket-PHP
 
 # Docker build
 docker-compose build
 
-# Docker konteynerlerini başlat
+# Start Docker containers
 docker-compose up -d
 
-# Uygulamaya eriş
+# Access application
 http://localhost:8080
 ```
 
-### Manuel Kurulum
-```bash
-# Repository'yi klonla
-git clone https://github.com/n0connect/NoTicket-PHP.git
-cd NoTicket-PHP/src
-
-# PHP built-in server ile çalıştır
-php -S localhost:8080
-
-# Veya Nginx/Apache ile kurulum yap
-```
-
-## Dizin Yapısı
+## Directory Structure
 ```
 src/
-├── adminPanel/          # Admin yönetim paneli
-├── companyPanel/        # Şirket yönetim paneli  
-├── 889b1769-*/         # SecurityModule ve güvenlik dosyaları
-├── database/           # Veritabanı dosyaları
+├── adminPanel/          # Admin management panel
+├── companyPanel/        # Company management panel  
+├── 889b1769-*/         # SecurityModule and security files
+├── database/           # Database files
 ├── css/js/static/      # Frontend assets
-└── *.php              # Ana uygulama dosyaları
+└── *.php              # Main application files
 ```
 
-## 🌐 API Endpoint'leri
+## 🌐 API Endpoints
 
 ### Public Endpoints
-| Endpoint | Method | Açıklama |
+| Endpoint | Method | Description |
 |----------|--------|----------|
-| `/index.php` | GET | Ana sayfa - Sefer listesi |
-| `/search.php` | GET | Sefer arama (from, to, date) |
-| `/trip_detail.php?id={uuid}` | GET | Sefer detayı |
-| `/login.php` | GET/POST | Kullanıcı girişi |
-| `/register.php` | GET | Kayıt formu |
-| `/addUser.php` | POST | Yeni kullanıcı kaydı |
+| `/index.php` | GET | Homepage - Trip list |
+| `/search.php` | GET | Trip search (from, to, date) |
+| `/trip_detail.php?id={uuid}` | GET | Trip details |
+| `/login.php` | GET/POST | User login |
+| `/register.php` | GET | Registration form |
+| `/addUser.php` | POST | New user registration |
 
 ### Authenticated Endpoints
-| Endpoint | Method | Açıklama | Rol |
+| Endpoint | Method | Description | Role |
 |----------|--------|----------|-----|
-| `/dashboard.php` | GET | Kullanıcı paneli | user |
-| `/booking.php?trip_id={uuid}` | GET/POST | Bilet satın alma | user |
-| `/ticket_view.php?id={uuid}` | GET | Bilet PDF görüntüleme | user |
-| `/check_coupon.php` | POST (JSON) | Kupon doğrulama API | user |
+| `/dashboard.php` | GET | User panel | user |
+| `/booking.php?trip_id={uuid}` | GET/POST | Ticket purchase | user |
+| `/ticket_view.php?id={uuid}` | GET | Ticket PDF view | user |
+| `/check_coupon.php` | POST (JSON) | Coupon validation API | user |
 
 ### Admin Panel
-| Endpoint | Method | Açıklama |
+| Endpoint | Method | Description |
 |----------|--------|----------|
-| `/adminPanel/login.php` | GET/POST | Admin girişi |
+| `/adminPanel/login.php` | GET/POST | Admin login |
 | `/adminPanel/dashboard.php` | GET | Admin dashboard |
-| `/adminPanel/companies.php` | GET/POST | Firma yönetimi |
-| `/adminPanel/company_admins.php` | GET/POST | Firma admin yönetimi |
-| `/adminPanel/coupons.php` | GET/POST | Global kupon yönetimi |
+| `/adminPanel/companies.php` | GET/POST | Company management |
+| `/adminPanel/company_admins.php` | GET/POST | Company admin management |
+| `/adminPanel/coupons.php` | GET/POST | Global coupon management |
 
 ### Company Panel
-| Endpoint | Method | Açıklama |
+| Endpoint | Method | Description |
 |----------|--------|----------|
-| `/companyPanel/login.php` | GET/POST | Firma girişi |
-| `/companyPanel/dashboard.php` | GET | Firma dashboard |
-| `/companyPanel/trips.php` | GET/POST | Sefer CRUD |
-| `/companyPanel/tickets.php` | GET | Satılan biletler |
-| `/companyPanel/passengers.php` | GET | Yolcu listesi |
-| `/companyPanel/coupons.php` | GET/POST | Firma kuponları |
+| `/companyPanel/login.php` | GET/POST | Company login |
+| `/companyPanel/dashboard.php` | GET | Company dashboard |
+| `/companyPanel/trips.php` | GET/POST | Trip CRUD |
+| `/companyPanel/tickets.php` | GET | Sold tickets |
+| `/companyPanel/passengers.php` | GET | Passenger list |
+| `/companyPanel/coupons.php` | GET/POST | Company coupons |
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 NoTicket-PHP/
@@ -229,72 +217,72 @@ NoTicket-PHP/
 └── README.md                                     # This file
 ```
 
-## 🗃️ Veritabanı Şeması
+## 🗃️ Database Schema
 
 ### User
-| Alan | Tip | Açıklama |
+| Field | Type | Description |
 |------|-----|----------|
 | id | TEXT (UUID) | Primary Key |
-| full_name | TEXT | Ad Soyad |
-| email | TEXT (UNIQUE) | Email adresi |
+| full_name | TEXT | Full Name |
+| email | TEXT (UNIQUE) | Email address |
 | password | TEXT | Bcrypt hash |
 | role | TEXT | 'user', 'company', 'admin' |
-| balance | REAL | Kullanıcı bakiyesi (₺) |
-| created_at | DATETIME | Kayıt tarihi |
+| balance | REAL | User balance (₺) |
+| created_at | DATETIME | Registration date |
 
 ### Bus_Company
-| Alan | Tip | Açıklama |
+| Field | Type | Description |
 |------|-----|----------|
 | id | TEXT (UUID) | Primary Key |
-| name | TEXT | Şirket adı |
+| name | TEXT | Company name |
 | logo_path | TEXT | Logo URL |
-| created_at | DATETIME | Oluşturulma tarihi |
+| created_at | DATETIME | Creation date |
 
 ### Trips
-| Alan | Tip | Açıklama |
+| Field | Type | Description |
 |------|-----|----------|
 | id | TEXT (UUID) | Primary Key |
-| company_id | TEXT (FK) | Şirket ID |
-| departure_city | TEXT | Kalkış şehri |
-| destination_city | TEXT | Varış şehri |
-| departure_time | DATETIME | Kalkış zamanı |
-| actual_time | DATETIME | Gerçek biniş zamanı |
-| price | REAL | Bilet fiyatı (₺) |
-| capacity | INTEGER | Toplam koltuk |
-| created_at | DATETIME | Oluşturulma tarihi |
+| company_id | TEXT (FK) | Company ID |
+| departure_city | TEXT | Departure city |
+| destination_city | TEXT | Destination city |
+| departure_time | DATETIME | Departure time |
+| actual_time | DATETIME | Actual boarding time |
+| price | REAL | Ticket price (₺) |
+| capacity | INTEGER | Total seats |
+| created_at | DATETIME | Creation date |
 
 ### Tickets
-| Alan | Tip | Açıklama |
+| Field | Type | Description |
 |------|-----|----------|
 | id | TEXT (UUID) | Primary Key |
-| trip_id | TEXT (FK) | Sefer ID |
-| user_id | TEXT (FK) | Kullanıcı ID |
-| seat_number | INTEGER | Koltuk numarası |
+| trip_id | TEXT (FK) | Trip ID |
+| user_id | TEXT (FK) | User ID |
+| seat_number | INTEGER | Seat number |
 | status | TEXT | 'paid', 'cancelled', 'reserved' |
-| created_at | DATETIME | Satın alma tarihi |
+| created_at | DATETIME | Purchase date |
 
 ### Coupons
-| Alan | Tip | Açıklama |
+| Field | Type | Description |
 |------|-----|----------|
 | id | TEXT (UUID) | Primary Key |
-| code | TEXT (UNIQUE) | Kupon kodu |
-| discount | REAL | İndirim miktarı (₺) |
-| usage_time | INTEGER | Max kullanım sayısı |
-| expire_date | DATE | Son kullanma tarihi |
-| company_id | TEXT (FK) NULL | Firma ID (NULL = global) |
-| created_at | DATETIME | Oluşturulma tarihi |
+| code | TEXT (UNIQUE) | Coupon code |
+| discount | REAL | Discount amount (₺) |
+| usage_time | INTEGER | Max usage count |
+| expire_date | DATE | Expiration date |
+| company_id | TEXT (FK) NULL | Company ID (NULL = global) |
+| created_at | DATETIME | Creation date |
 
 ### User_Coupons
-| Alan | Tip | Açıklama |
+| Field | Type | Description |
 |------|-----|----------|
-| user_id | TEXT (FK) | Kullanıcı ID |
-| coupon_id | TEXT (FK) | Kupon ID |
-| used_at | DATETIME | Kullanım tarihi |
+| user_id | TEXT (FK) | User ID |
+| coupon_id | TEXT (FK) | Coupon ID |
+| used_at | DATETIME | Usage date |
 
-## 👨‍💻 Geliştirici
+## 👨‍💻 Developer
 **@n0connect**
 
 ---
 
-## 📝 Lisans
-Bu proje MIT lisansı altında lisanslanmıştır.
+## 📝 License
+This project is licensed under the MIT License.
