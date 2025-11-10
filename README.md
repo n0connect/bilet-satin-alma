@@ -9,22 +9,22 @@
 
 **Geliştirici:** @n0connect
 **Versiyon:** 1.0.0
-**Durum:** Production Ready ✅
+**Durum:** Experimental Only 
 
 ## 🛠️ Teknoloji Yığını
 - **Backend:** PHP 8.0+ / PDO
 - **Veritabanı:** SQLite 3
 - **Web Server:** Nginx + PHP-FPM
 - **Konteynerizasyon:** Docker Compose
-- **Security:** Custom WAF Module (SecurityModule.php)
+- **Security:** Custom sWAF Module (SecurityModule.php) + Regex Control
 
 ## 🔒 Güvenlik Özellikleri
 
-### WAF (Web Application Firewall)
-- ✅ **Custom SecurityModule.php** - Özel geliştirilen WAF modülü
-- ✅ **Whitelist tabanlı validasyon** - Sadece güvenli karakterlere izin
+### sWAF (Secure Web Application Firewall)
+- ✅ **Custom SecurityModule.php** - Özel geliştirilen sWAF modülü
+- ✅ **Whitelist tabanlı validasyon** - Sadece güvenli karakterlere izin (Regex)
 - ✅ **Multi-layer decoding** - Encoding bypass saldırılarını tespit eder
-- ✅ **Always-blocked patterns** - SQL Injection, XSS, Command Injection koruması
+- ✅ **Always-blocked patterns** - SQL Injection, XSS, Command Injection koruması (Blacklist + Whitelist)
 - ✅ **Selective mode system** - Email, password, text için özel modlar
 
 ### OWASP Top 10 Koruması
@@ -32,7 +32,7 @@
 |------|-------|--------|
 | SQL Injection | ✅ | Prepared Statements + Input Validation |
 | XSS | ✅ | HTML Encoding + wafReflect() |
-| CSRF | ⚠️ | SameSite Cookies (Token önerilir) |
+| CSRF | N/A | SameSite Cookies kullanılmıyor |
 | Broken Auth | ✅ | Timing attack prevention + bcrypt |
 | Security Misconfiguration | ✅ | Secure session settings |
 | Sensitive Data Exposure | ✅ | Password hashing + UUID |
@@ -45,8 +45,8 @@
 - ✅ **Session güvenliği:** UUID tabanlı + timeout + regeneration
 - ✅ **UUID validation:** Tüm ID parametreleri UUID formatında
 - ✅ **Timing attack prevention:** Login endpoint'inde usleep ile koruma
-- ✅ **Rate limiting ready:** Altyapı hazır (implementasyon önerilir)
 - ✅ **Threat logging:** Otomatik `/logs/waf_threats.log` kaydı
+- ❌ **Rate limiting ready:** Eklenmedi
 
 ## Sistem Mimarisi
 
@@ -129,24 +129,6 @@ php -S localhost:8080
 # Veya Nginx/Apache ile kurulum yap
 ```
 
-## 👤 Test Hesapları
-
-### Normal Kullanıcı
-- **Email:** tilki@test.com
-- **Şifre:** user-123
-
-### Normal Kullanıcı #2
-- **Email:** dogubey@test.com
-- **Şifre:** user-123
-
-### Company Admin
-- **Panel:** `/companyPanel/login.php`
-- **Email:** [Veritabanından kontrol edin]
-
-### System Admin
-- **Panel:** `/adminPanel/login.php`
-- **Email:** [Veritabanından kontrol edin]
-
 ## Dizin Yapısı
 ```
 src/
@@ -157,34 +139,6 @@ src/
 ├── css/js/static/      # Frontend assets
 └── *.php              # Ana uygulama dosyaları
 ```
-
-## ⚠️ Güvenlik Notları
-
-### Production Deployment Checklist
-- [ ] **HTTPS Aktif Et** - `session_helper.php` içinde `'secure' => true`
-- [ ] **CSRF Token Ekle** - POST formlarına token sistemi önerilir
-- [ ] **Rate Limiting** - Login ve register endpoint'lerine ekle
-- [ ] **Veritabanı Backup** - Otomatik yedekleme sistemi kur
-- [ ] **Log Monitoring** - `logs/waf_threats.log` dosyasını izle
-- [ ] **Error Reporting Kapat** - `php.ini` içinde `display_errors = Off`
-- [ ] **File Permissions** - Dosya izinlerini 644, klasörleri 755 yap
-- [ ] **Remove Test Accounts** - Test kullanıcılarını sil
-
-### Mevcut Güvenlik
-- ✅ Tüm user input SecurityModule ile validate edilir
-- ✅ SQL injection koruması aktif (Prepared statements)
-- ✅ XSS koruması aktif (HTML encoding)
-- ✅ Session hijacking koruması mevcut
-- ✅ Timing attack koruması (login endpoint)
-- ✅ Password hashing (bcrypt)
-- ✅ UUID kullanımı (predictable ID yok)
-
-## Veritabanı Şeması
-- **User:** Kullanıcı bilgileri ve bakiye
-- **Trips:** Sefer bilgileri ve kapasite
-- **Tickets:** Bilet rezervasyonları
-- **Bus_Company:** Otobüs şirket bilgileri
-- **Coupons:** İndirim kuponları
 
 ## 🌐 API Endpoint'leri
 
@@ -337,22 +291,10 @@ NoTicket-PHP/
 | coupon_id | TEXT (FK) | Kupon ID |
 | used_at | DATETIME | Kullanım tarihi |
 
-## 🤝 Katkıda Bulunma
-Pull request'ler memnuniyetle karşılanır. Büyük değişiklikler için lütfen önce bir issue açın.
-
-## 📝 Lisans
-Bu proje MIT lisansı altında lisanslanmıştır.
-
 ## 👨‍💻 Geliştirici
 **@n0connect**
 
-## 🔗 Bağlantılar
-- GitHub: [https://github.com/n0connect](https://github.com/n0connect)
-- Demo: [Yakında]
-- Dokümantasyon: [Bu README]
-
 ---
 
-**⚡ Son Güncelleme:** 2025-10-23
-**📦 Versiyon:** 1.0.0
-**✅ Durum:** Production Ready
+## 📝 Lisans
+Bu proje MIT lisansı altında lisanslanmıştır.
